@@ -1,0 +1,18 @@
+﻿<Window x:Class="DockPanelApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DockPanelApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button x:Name="TopButton" Content="Top" DockPanel.Dock="Top"></Button>
+        <Button x:Name="LeftButton" Content="Left" DockPanel.Dock="Left"></Button>
+        <Button x:Name="RightButton" Content="Right" DockPanel.Dock="Right"></Button>
+        <Button x:Name="BottomButton" Content="Bottom" DockPanel.Dock="Bottom"></Button>
+
+        <TextBox x:Name="TextBox"></TextBox>
+        
+    </DockPanel>
+</Window>
