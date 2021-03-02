@@ -36,7 +36,6 @@ namespace CSVReader
         
         public static List<Person> GetPeople(string filename)
         {
-
             return Person.ReadCSVFile(filename);
         }
 
